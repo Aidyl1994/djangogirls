@@ -20,12 +20,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '92^&8!cf%swf%bg_3tl@a1x*r5lksz_d_)kp%u#f!ks)9k(k$p'
+SECRET_KEY = 'm8$b$rwpmbvw40+4x6z!s=va_n=cjw(9t9#)6x&%y(4$w6%m#a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+
 
 # Application definition
 
@@ -118,4 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join( BASE_DIR, ' static' )
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
